@@ -1,0 +1,2204 @@
+{
+ "generatedAt": "2026-11-19T19:25:16.744Z",
+ "courses": [
+  {
+   "id": "30000000-0000-4000-8000-000000000001",
+   "code": "CS204",
+   "name": "数据结构与算法",
+   "slug": "数据结构与算法",
+   "exists": true
+  },
+  {
+   "id": "40000000-0000-4000-8000-000000000002",
+   "code": "CS305",
+   "name": "数据库系统概论",
+   "slug": "数据库系统概论",
+   "exists": false
+  }
+ ],
+ "packs": [
+  {
+   "id": "40000000-0000-4000-9000-96b08844ae47",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "期中",
+   "title": "期中 · 查找、排序小测题",
+   "subtitle": "黄科满 · 2024-2025 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2024-2025学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2024,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2024-2025学年 第一学期（秋）/黄科满 数据结构与算法I-黄科满/期中+小测/查找、排序小测题.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2024-2025%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%BB%84%E7%A7%91%E6%BB%A1%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I-%E9%BB%84%E7%A7%91%E6%BB%A1/%E6%9C%9F%E4%B8%AD%2B%E5%B0%8F%E6%B5%8B/%E6%9F%A5%E6%89%BE%E3%80%81%E6%8E%92%E5%BA%8F%E5%B0%8F%E6%B5%8B%E9%A2%98.docx",
+   "itemCount": 19,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "既希望较快的查找又便于线性表动态变化的查找方法是 （　）。",
+     "options": [
+      "顺序查找",
+      "折半查找",
+      "索引顺序查找",
+      "哈希法查找"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 哈希法查找。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "若查找每个记录的概率均等，则在具有n个记录的连续顺序文件中采用顺序查找法查找一个记录，其平均查找长度ASL为（　）。",
+     "options": [
+      "(n-1)/2",
+      "n/2",
+      "(n+1)/2",
+      "n"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. (n+1)/2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "对N个元素的表做顺序查找时，若查找每个元素的概率相同，则平均查找长度为（　） 。",
+     "options": [
+      "（N+1）/2",
+      "N/2",
+      "N",
+      "[（1+N）*N ]/2"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. （N+1）/2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "设一组关键字为{19，14，23，1，68，20，84，27，55，11，10，79}，用链地址法构造散列表，散列函数为H（key）=key MOD 13,散列地址为1的链中有（　）个记录。",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 4。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "设哈希表长为14，哈希函数是H(key)=key%11,表中已有数据的关键字为｛15，38，61，84｝共四个，现要将关键字为49的结点加到表中，用二次探测再散列法解决冲突，则放入的位置是（　）。",
+     "options": [
+      "8",
+      "3",
+      "5",
+      "9"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 8。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "哈希查找中k个关键字具有同一哈希值，若用线性探测法将这k个关键字对应的记录存入哈希表中，至少要进行（　）次探测。",
+     "options": [
+      "k",
+      "k+1",
+      "k(k+1)/2",
+      "1+k(k+1)/2"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. k(k+1)/2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "将10个元素散列到100000个单元的哈希表中，则（　）产生冲突。",
+     "options": [
+      "一定会",
+      "一定不会",
+      "仍可能会"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 仍可能会。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r8",
+     "qtype": "choice",
+     "stem": "在下列排序算法中,哪一个算法的时间复杂度与初始排序无关（　）。",
+     "options": [
+      "直接插入排序",
+      "气泡排序",
+      "快速排序",
+      "直接选择排序"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 直接选择排序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r9",
+     "qtype": "choice",
+     "stem": "数据序列（8，9，10，4，5，6，20，1，2）只能是下列排序算法中的（　）的两趟排序后的结果。",
+     "options": [
+      "选择排序",
+      "冒泡排序",
+      "插入排序",
+      "堆排序"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 插入排序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r10",
+     "qtype": "choice",
+     "stem": "对一组数据（84，47，25，15，21）排序，数据的排列次序在排序的过程中的变化为 （1） 84 47 25 15 21 （2） 15 47 25 84 21 （3） 15 21 25 84 47 （4） 15 21 25 47 84 ，则采用的排序是 （　）。",
+     "options": [
+      "选择",
+      "冒泡",
+      "快速",
+      "插入"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 选择。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r11",
+     "qtype": "choice",
+     "stem": "对序列{15，9，7，8，20，-1，4}进行排序，进行一趟后数据的排列变为{4，9，-1，8，20，7，15}；则采用的是（　）排序。",
+     "options": [
+      "选择",
+      "快速",
+      "希尔",
+      "冒泡"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 希尔。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r12",
+     "qtype": "choice",
+     "stem": "下列排序算法中（　）不能保证每趟排序至少能将一个元素放到其最终的位置上。",
+     "options": [
+      "快速排序",
+      "shell排序",
+      "堆排序",
+      "冒泡排序"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. shell排序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r13",
+     "qtype": "choice",
+     "stem": "下列排序算法中（　）排序在一趟结束后不一定能选出一个元素放在其最终位置上。",
+     "options": [
+      "选择",
+      "冒泡",
+      "归并",
+      "堆"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 归并。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r14",
+     "qtype": "choice",
+     "stem": "下列序列中，（　）是执行第一趟快速排序后所得的序列。",
+     "options": [
+      "[68，11，18，69] [23，93，73]",
+      "[68，11，69，23] [18，93，73]",
+      "[93，73] [68，11，69，23，18]",
+      "[68，11，69，23，18] [93，73]"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. [68，11，69，23，18] [93，73]。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r15",
+     "qtype": "choice",
+     "stem": "有一组数据（15，9，7，8，20，-1，7，4） 用快速排序的划分方法进行一趟划分后数据的排序为 （　）（按递增序）。",
+     "options": [
+      "下面的B，C，D都不对。",
+      "9，7，8，4，-1，7，15，20",
+      "20，15，8，9，7，-1，4，7",
+      "9，4，7，8，7，-1，15，20"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 下面的B，C，D都不对。。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r16",
+     "qtype": "choice",
+     "stem": "在下面的排序方法中，辅助空间为O（n）的是（　） 。",
+     "options": [
+      "希尔排序",
+      "堆排序",
+      "选择排序",
+      "归并排序"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 归并排序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r17",
+     "qtype": "choice",
+     "stem": "下列排序算法中，在待排序数据已有序时，花费时间反而最多的是（　）排序。",
+     "options": [
+      "冒泡",
+      "希尔",
+      "快速",
+      "堆"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 快速。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r18",
+     "qtype": "choice",
+     "stem": "下列排序算法中，在每一趟都能选出一个元素放到其最终位置上，并且其时间性能受数据初始特性影响的是：（　）。",
+     "options": [
+      "直接插入排序",
+      "快速排序",
+      "直接选择排序",
+      "堆排序"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 快速排序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r19",
+     "qtype": "choice",
+     "stem": "就平均性能而言，目前最好的内排序方法是（　）排序法。",
+     "options": [
+      "冒泡",
+      "希尔插入",
+      "交换",
+      "快速"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 快速。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-e23bfc0c74d1",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 第02章 测验答案",
+   "subtitle": "陈晋川 · 2019-2020 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2019-2020学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2019,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2019-2020学年 第一学期（秋）/陈晋川 陈晋川班数据结构-2019/小测/第02章 测验答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2019-2020%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%99%88%E6%99%8B%E5%B7%9D%20%E9%99%88%E6%99%8B%E5%B7%9D%E7%8F%AD%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-2019/%E5%B0%8F%E6%B5%8B/%E7%AC%AC02%E7%AB%A0%20%E6%B5%8B%E9%AA%8C%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 18,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "若长度为n的线性表采用顺序存储结构，在其第i个位置插入一个新元素需要移动的元素个数为（　）。(1≤i≤n+1)",
+     "options": [
+      "n-i",
+      "n-i+1",
+      "i",
+      "n-i-1"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. n-i+1。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "设有两个串p和q，求q在p中首次出现的位置的运算称作（　）",
+     "options": [
+      "连接",
+      "模式匹配",
+      "求子串",
+      "求串长"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 模式匹配。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "求单链表中当前结点的后继和前驱的时间复杂度分别是（　）",
+     "options": [
+      "O（n）和O（1）",
+      "O（1）和O（1）",
+      "O（1）和O（n）",
+      "O(n)和O（n）"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. O（1）和O（n）。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "非空的单循环链表的头指针为head,尾指针为rear，则下列条件成立的是（　）",
+     "options": [
+      "rear->next= =head",
+      "rear->next->next= =head",
+      "head->next= =rear",
+      "head->next->next= =rear"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. rear->next= =head。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "在线性表的下列运算中，不改变数据元素之间结构关系的运算是（　）",
+     "options": [
+      "插入",
+      "删除",
+      "排序",
+      "定位"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 定位。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "已知指针p和q分别指向某单链表中第一个结点和最后一个结点。假设指针s指向 另一个单链表中某个结点，则在s所指结点之后插入上述链表应执行的语句为（　）",
+     "options": [
+      "q->next=s->next；s->next=p；",
+      "s->next=p；q->next=s->next；",
+      "p->next=s->next；s->next=q；",
+      "s->next=q；p->next=s->next；"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. q->next=s->next；s->next=p；。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "若线性表的插入和删除操作频繁地在表头或表尾位置进行，则更适宜采用的存储结构为（　）",
+     "options": [
+      "无头结点的双向链表",
+      "带尾指针的循环链表",
+      "无头结点的单链表",
+      "带头指针的循环链表"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 带尾指针的循环链表。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r8",
+     "qtype": "choice",
+     "stem": "在下列对顺序表进行的操作中，算法时间复杂度为O(1)的是（　）",
+     "options": [
+      "访问第i个元素的前驱（1<）",
+      "在第i个元素之后插入一个新元素()",
+      "删除第i个元素()",
+      "对顺序表中元素进行排序"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 访问第i个元素的前驱（1<）。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r9",
+     "qtype": "choice",
+     "stem": "假设带头结点的单向循环链表的头指针为head,则该链表为空的判定条件是（　）",
+     "options": [
+      "head= =NULL",
+      "head–>next= =NULL",
+      "head!=NULL",
+      "head–>next= =head"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. head–>next= =head。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r10",
+     "qtype": "choice",
+     "stem": "下面关于线性表的叙述中，错误的是哪一个？（　）【北方交通大学 2001 一、14（2分）】",
+     "options": [
+      "线性表采用顺序存储，必须占用一片连续的存储单元。",
+      "线性表采用顺序存储，便于进行插入和删除操作。",
+      "线性表采用链接存储，不必占用一片连续的存储单元。",
+      "线性表采用链接存储，便于插入和删除操作。"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 线性表采用顺序存储，便于进行插入和删除操作。。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r11",
+     "qtype": "choice",
+     "stem": "线性表是具有n个（　）的有限序列（n>0）。 【清华大学 1998 一、4（2分）】",
+     "options": [
+      "表元素",
+      "字符",
+      "数据元素",
+      "数据项",
+      "信息项"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 数据元素。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r12",
+     "qtype": "choice",
+     "stem": "若某线性表最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则利用（　）存储方式最节省时间。【哈尔滨工业大学 2001 二、1（2分）】",
+     "options": [
+      "顺序表",
+      "双链表",
+      "带头结点的双循环链表",
+      "单循环链表"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 顺序表。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r13",
+     "qtype": "choice",
+     "stem": "某线性表中最常用的操作是在最后一个元素之后插入一个元素和删除第一个元素，则采用（　）存储方式最节省运算时间。【南开大学 2000 一、3】",
+     "options": [
+      "单链表",
+      "仅有头指针的单循环链表",
+      "双链表",
+      "仅有尾指针的单循环链表"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 仅有尾指针的单循环链表。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r14",
+     "qtype": "choice",
+     "stem": "设一个链表最常用的操作是在末尾插入结点和删除尾结点，则选用（　）最节省时间。",
+     "options": [
+      "单链表",
+      "单循环链表",
+      "带尾指针的单循环链表",
+      "带头结点的双循环链表 【合肥工业大学 2000 一、1（2分）】"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 带头结点的双循环链表 【合肥工业大学 2000 一、1（2分）】。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r15",
+     "qtype": "choice",
+     "stem": "若某表最常用的操作是在最后一个结点之后插入一个结点或删除最后一个结点。则采用（　）存储方式最节省运算时间。【北京理工大学 2000 一、1（2分）】",
+     "options": [
+      "单链表",
+      "双链表",
+      "单循环链表",
+      "带头结点的双循环链表"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 带头结点的双循环链表。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r16",
+     "qtype": "choice",
+     "stem": "静态链表中指针表示的是（　）. 【北京理工大学 2001 六、2（2分）】",
+     "options": [
+      "内存地址",
+      "数组下标",
+      "下一元素地址",
+      "左、右孩子地址"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 下一元素地址。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r17",
+     "qtype": "choice",
+     "stem": "链表不具有的特点是（　） 【福州大学 1998 一、8 (2分)】",
+     "options": [
+      "插入、删除不需要移动元素",
+      "可随机访问任一元素",
+      "不必事先估计存储空间",
+      "所需空间与线性长度成正比"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 可随机访问任一元素。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r18",
+     "qtype": "judge",
+     "stem": "线性表中每一个元素都有一个前驱和一个后继。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-d828d0b5b188",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "期中",
+   "title": "期中 · 第二次小测题-答案(2)(1)",
+   "subtitle": "黄科满 · 2024-2025 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2024-2025学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2024,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2024-2025学年 第一学期（秋）/黄科满 数据结构与算法I-黄科满/期中+小测/第二次小测题-答案(2)(1).docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2024-2025%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%BB%84%E7%A7%91%E6%BB%A1%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I-%E9%BB%84%E7%A7%91%E6%BB%A1/%E6%9C%9F%E4%B8%AD%2B%E5%B0%8F%E6%B5%8B/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%B0%8F%E6%B5%8B%E9%A2%98-%E7%AD%94%E6%A1%88(2)(1).docx",
+   "itemCount": 15,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "若已知一个栈的入栈序列是1,2,3,…,n，其输出序列为p1,p2,p3，…，pN,若pN是n，则pi是（　）。",
+     "options": [
+      "i",
+      "n-i",
+      "n-i+1",
+      "不确定"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 不确定。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "一个栈的输入序列为1 2 3 4 5，则下列序列中不可能是栈的输出序列的是（　）。",
+     "options": [
+      "2 3 4 1 5",
+      "5 4 1 3 2",
+      "2 3 1 4 5",
+      "1 5 4 3 2"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 5 4 1 3 2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "栈在（　）中应用。",
+     "options": [
+      "递归调用",
+      "子程序调用",
+      "表达式求值",
+      "A，Ｂ，Ｃ"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. A，Ｂ，Ｃ。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "若一个栈以向量V[1..n]存储，初始栈顶指针top为n+1，则下面x进栈的正确操作是（　）。",
+     "options": [
+      "top=top+1; V [top]=x",
+      "V [top]=x; top=top+1",
+      "top=top-1; V [top]=x",
+      "V [top]=x; top=top-1"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. top=top-1; V [top]=x。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "一个递归算法必须包括（　）。",
+     "options": [
+      "递归部分",
+      "终止条件和递归部分",
+      "迭代部分",
+      "终止条件和迭代部分"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 终止条件和递归部分。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "设计一个判别表达式中左，右括号是否配对出现的算法，采用（　）数据结构最佳。",
+     "options": [
+      "线性表的顺序存储结构",
+      "队列",
+      "线性表的链式存储结构",
+      "栈"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 栈。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "用链接方式存储的队列，在进行删除运算时（　）。",
+     "options": [
+      "仅修改头指针",
+      "仅修改尾指针",
+      "头、尾指针都要修改",
+      "头、尾指针可能都要修改"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 头、尾指针可能都要修改。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r8",
+     "qtype": "choice",
+     "stem": "最大容量为n的循环队列，队尾指针是rear，队头是front，则队空的条件是 （　）。",
+     "options": [
+      "(rear+1) MOD n = front",
+      "rear = front",
+      "rear+1 = front",
+      "(rear-l) MOD n = front"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. rear = front。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r9",
+     "qtype": "choice",
+     "stem": "栈和队列的共同点是（　）。",
+     "options": [
+      "都是先进先出",
+      "都是先进后出",
+      "只允许在端点处插入和删除元素",
+      "没有共同点"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 只允许在端点处插入和删除元素。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r10",
+     "qtype": "choice",
+     "stem": "若一个栈的输入序列是1，2，3，4，…n，输出的第一个元素是i，则输出的第j个元素是（　）。",
+     "options": [
+      "i-j-1",
+      "i-j",
+      "j-i+1",
+      "不确定的"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 不确定的。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r11",
+     "qtype": "judge",
+     "stem": "栈和队列都是限制存取点的线性结构。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：正确。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r12",
+     "qtype": "judge",
+     "stem": "栈和队列的存储方式，既可以是顺序方式，又可以是链式方式。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：正确。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r13",
+     "qtype": "judge",
+     "stem": "队是一种插入与删除操作分别在表的两端进行的线性表，是一种先进后出型结构。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r14",
+     "qtype": "judge",
+     "stem": "在具有n个元素且采用尾指针虚指实现的循环队列中，队满时具有n-1个元素。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：正确。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r15",
+     "qtype": "judge",
+     "stem": "只有那种使用了局部变量的递归过程在转换成非递归过程时才必须使用栈。（　） 四、应用题（每题10分，共20分）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-461db572a823",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 测验一（第2章+第3章） - 答案",
+   "subtitle": "陈晋川 · 2021-2022 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2021-2022学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2021,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2021-2022学年 第一学期（秋）/陈晋川 数据结构2021/小测/测验一（第2章+第3章） - 答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2021-2022%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%99%88%E6%99%8B%E5%B7%9D%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%842021/%E5%B0%8F%E6%B5%8B/%E6%B5%8B%E9%AA%8C%E4%B8%80%EF%BC%88%E7%AC%AC2%E7%AB%A0%2B%E7%AC%AC3%E7%AB%A0%EF%BC%89%20-%20%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 5,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "若长度为n的线性表采用顺序存储结构，在其第i个位置删除一个元素的的平均时间复杂度为（　）。(1≤i≤n)",
+     "options": [
+      "O(0)",
+      "O(1)",
+      "O(n)",
+      "O(n^2)"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. O(n)。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "下面关于线性表的叙述中，错误的是哪一个？（　）",
+     "options": [
+      "线性表采用顺序存储，必须占用一片连续的存储单元。",
+      "线性表采用顺序存储，便于进行插入和删除操作。",
+      "线性表采用链接存储，不必占用一片连续的存储单元。",
+      "线性表采用链接存储，便于插入和删除操作。"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 线性表采用顺序存储，便于进行插入和删除操作。。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "若某线性表最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则利用（　）存储方式最节省时间。",
+     "options": [
+      "顺序表",
+      "双链表",
+      "带头结点的双循环链表",
+      "单循环链表"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 顺序表。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "若一个栈的输入序列为1,2,3,…,n，输出序列的第一个元素是i，则第j个输出元素是（　）。",
+     "options": [
+      "i-j-1",
+      "i-j",
+      "j-i+1",
+      "不确定的"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 不确定的。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "表达式a*(b+c)-d的后缀表达式是（　）。",
+     "options": [
+      "abcd*+-",
+      "abc+*d-",
+      "abc*+d-",
+      "-+*abcd"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. abc+*d-。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-e385e97f94b4",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 测验二 第04-05章 - 答案",
+   "subtitle": "陈晋川 · 2021-2022 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2021-2022学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2021,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2021-2022学年 第一学期（秋）/陈晋川 数据结构2021/小测/测验二 第04-05章 - 答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2021-2022%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%99%88%E6%99%8B%E5%B7%9D%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%842021/%E5%B0%8F%E6%B5%8B/%E6%B5%8B%E9%AA%8C%E4%BA%8C%20%E7%AC%AC04-05%E7%AB%A0%20-%20%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 11,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "串‘ababaaababaa’的next数组为（　）。",
+     "options": [
+      "012345678999",
+      "012121111212",
+      "011234223456",
+      "0123012322345"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 011234223456。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "模式串t=‘abcaabbcabcaabdab’，该模式串的nextval数组的值为 （　）。",
+     "options": [
+      "0 1 1 1 2 2 1 1 1 2 3 4 5 6 7 1 2",
+      "0 1 1 1 2 1 2 1 1 2 3 4 5 6 1 1 2",
+      "0 1 1 1 0 0 1 3 1 0 1 1 0 0 7 0 1",
+      "0 1 1 1 2 2 3 1 1 2 3 4 5 6 7 1 2",
+      "0 1 1 0 0 1 1 1 0 1 1 0 0 1 7 0 1",
+      "0 1 1 0 2 1 3 1 0 1 1 0 2 1 7 0 1"
+     ],
+     "answer": "5",
+     "explanation": "正确答案：F. 0 1 1 0 2 1 3 1 0 1 1 0 2 1 7 0 1。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "若串S=‘software’,其子串的数目是（　）。",
+     "options": [
+      "8",
+      "37",
+      "36",
+      "9"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 37。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "以下说法错误的是 （　）",
+     "options": [
+      "不管是行优先还是列优先存储， 数组元素的存放地址都可以表示为其下标的线性函数。",
+      "将对称矩阵A压缩存储到一个向量之后，仍然可以在O（1）时间获取A(i,j)的值。",
+      "将稀疏矩阵采用三元组顺序表存储之后，仍然可以在O（1）时间获取A(i,j)的值。",
+      "将对角矩阵采用压缩存储到一个向量之后，仍然可以在O（1）时间获取A(i,j)的值。"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 将稀疏矩阵采用三元组顺序表存储之后，仍然可以在O（1）时间获取A(i,j)的值。。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "广义表A=(a,b,(c,d),(e,(f,g,h))),则式子Tail(Tail(Head(Tail(Tail（　）))))的值为（ A ）。",
+     "options": [
+      "()",
+      "(d)",
+      "c",
+      "d"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. ()。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "设广义表L=（（a,b,c,(d,e)）），则L的深度和长度分别为（　）。",
+     "options": [
+      "1和1",
+      "1和3",
+      "1和2",
+      "3和1"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 3和1。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "将一个 A[1..100， 1..100]的三对角矩阵，按列优先存入一维数组 B[1‥298]中， A 中元素 A66,65（即该元素下标 i=66， j=65），在 B 数组中的位置 K 为（　）。",
+     "options": [
+      "199",
+      "194",
+      "197",
+      "195"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 194。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r8",
+     "qtype": "choice",
+     "stem": "设有一个10阶的对称矩阵A，采用压缩存储方式，以行序为主存储，A11为第一元素，其存储地址为1，每个元素占一个地址空间，则A58的地址为（　）。",
+     "options": [
+      "13",
+      "33",
+      "18",
+      "40"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 33。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r9",
+     "qtype": "choice",
+     "stem": "设有数组A[i,j]，数组的每个元素长度为2字节，i的值为1到8，j的值为1到10，数组从内存首地址BA开始顺序存放，当用以行为主存放时，元素A[5，6]的存储首地址为 （　）。",
+     "options": [
+      "BA+90",
+      "BA+180",
+      "BA+91",
+      "BA+181"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. BA+90。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r10",
+     "qtype": "choice",
+     "stem": "已知广义表 LS = (a, (b, c)，F ),对其执行 TAIL(TAIL(Tail(LS))) 操作，结果为：（　）",
+     "options": [
+      "( c )",
+      "()",
+      "(F)",
+      "F"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. ()。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r11",
+     "qtype": "choice",
+     "stem": "采用三元组顺序表来存储一个稀疏矩阵，求矩阵元素A(i,j)的复杂度为（　）",
+     "options": [
+      "O(mu)",
+      "O(nu)",
+      "O(tu)",
+      "O(1)"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. O(tu)。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-3332c22343b1",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "期中",
+   "title": "期中 · 树-小测题-答案",
+   "subtitle": "黄科满 · 2024-2025 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2024-2025学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2024,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2024-2025学年 第一学期（秋）/黄科满 数据结构与算法I-黄科满/期中+小测/树-小测题-答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2024-2025%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%BB%84%E7%A7%91%E6%BB%A1%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I-%E9%BB%84%E7%A7%91%E6%BB%A1/%E6%9C%9F%E4%B8%AD%2B%E5%B0%8F%E6%B5%8B/%E6%A0%91-%E5%B0%8F%E6%B5%8B%E9%A2%98-%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 10,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "树的路径长度是从树根到每个叶子结点的路径长度的（　）",
+     "options": [
+      "最大值",
+      "最小值",
+      "总和",
+      "平均值"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 总和。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "一棵左子树为空的二叉树在先序线索化后，其中空的链域的个数是（　）",
+     "options": [
+      "不确定",
+      "0个",
+      "1个",
+      "2个"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 2个。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "对于一个具有n个结点、度为4的树来说，（　）",
+     "options": [
+      "第i层上至多有4（i-1）个结点",
+      "至少在某一层上正好有4个结点",
+      "树的高度至多是n-3",
+      "树的高度至多是n-4"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 树的高度至多是n-3。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "下列关于二叉树的说法中，正确的是（　）",
+     "options": [
+      "度为2的有序树就是二叉树",
+      "含有n个结点的二叉树的高度为[log2n]+1([]指向下取整)",
+      "在任意一棵非空二叉排序树中，删除某结点后又将其插入，所得二叉排序树与删除前原二叉排序树不一定相同",
+      "在二叉树中，若一个结点没有左孩子，则它必是叶结点"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 在任意一棵非空二叉排序树中，删除某结点后又将其插入，所得二叉排序树与删除前原二叉排序树不一定相同。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "设二叉树只有度为0和2的结点，其结点个数为15，则二叉树的最大深度为（　）",
+     "options": [
+      "4",
+      "5",
+      "8",
+      "9"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 8。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "在任何一颗二叉树中，若结点a有左孩子 b、右孩子C，则在结点的先序序列、中序序列、后序序列中， （　）",
+     "options": [
+      "结点b一定在结点c的前面",
+      "结点a一定在结点c的前面",
+      "结点b一定在结点a的前面",
+      "结点a一定在结点b的前面"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 结点b一定在结点c的前面。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "下列序列中，不能唯一地确定一棵二叉树的是（　）",
+     "options": [
+      "层次序列和中序序列",
+      "先序序列和后序序列",
+      "后序序列和中序序列",
+      "先序序列和中序序列"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 先序序列和后序序列。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r8",
+     "qtype": "choice",
+     "stem": "判断线索二叉树中*p结点有右孩子结点的条件是（　）",
+     "options": [
+      "p != NULL",
+      "p->right != NULL",
+      "p->rtag == 0",
+      "p->rtag == 1"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. p->rtag == 0。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r9",
+     "qtype": "choice",
+     "stem": "设n、m为一棵二叉树上的两个结点，在后序遍历时，n在m前的条件是（　）",
+     "options": [
+      "n在m右方",
+      "n在m左方",
+      "n是m的子孙",
+      "n是m的祖先"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. n是m的子孙。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r10",
+     "qtype": "choice",
+     "stem": "下列编码中，（　） 不是前缀码",
+     "options": [
+      "00,01,10,11",
+      "0,1,00,11",
+      "0,10,110,111",
+      "10,110,1110,1111"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 0,1,00,11。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-d4e3deac5393",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 第4-5章小测答案",
+   "subtitle": "李锡荣 · 2024-2025 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2024-2025学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2024,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2024-2025学年 第一学期（秋）/李锡荣 数据结构24-3103/小测/第4-5章小测答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2024-2025%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E6%9D%8E%E9%94%A1%E8%8D%A3%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%8424-3103/%E5%B0%8F%E6%B5%8B/%E7%AC%AC4-5%E7%AB%A0%E5%B0%8F%E6%B5%8B%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 9,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "设有两个串p和q，其中q是p的子串，求q在p中首次出现的位置的算法称为（　）",
+     "options": [
+      "求子串",
+      "联接",
+      "匹配",
+      "求串长"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 匹配。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "串的长度是指（　）",
+     "options": [
+      "串中所含不同字母的个数",
+      "串中所含字符的个数",
+      "串中所含不同字符的个数",
+      "串中所含非空格字符的个数"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 串中所含字符的个数。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "已知主串S为‘abaabaabacacaabaabcc’,模式串t为‘abaabc’采用KMP算法进行匹配，第一次出现“失配”(s[i] ≠t[j]）时，i=j=5，则下次开始匹配时，i和j的值分别是 （　）",
+     "options": [
+      "i=1,j=0",
+      "i=5,j=0",
+      "i=5,j=2",
+      "i=6,j=2"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. i=5,j=2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "已知广义表LS＝((a,b,c),(d,e,f)),运用head和tail函数取出原子f的式子是（　）。",
+     "options": [
+      "head(tail(head(tail(LS))))",
+      "tail(tail(head(LS)))",
+      "head(tail(tail(head(tail(LS))))",
+      "head(tail(tail(head(LS))))"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. head(tail(tail(head(tail(LS))))。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "广义表A=(a,b,(c,d),(e,(f,g))),则式子head(tail(head(tail(tail（　）))))的值为（ D ）。",
+     "options": [
+      "(g)",
+      "(d)",
+      "c",
+      "d"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. (g)。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "设广义表L=（（a,b,c）），则L的长度和深度分别为（　）。",
+     "options": [
+      "1和1",
+      "1和3",
+      "1和2",
+      "2和3"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 1和2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "给定二维数组A，每个元素占3个存储单元，行下标i为0～8，列下标j为0～9，从首地址SA开始按行优先连续存放，则元素A[8][5]的起始地址为（　）",
+     "options": [
+      "SA+141",
+      "SA+144",
+      "SA+222",
+      "SA+255"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. SA+255。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r8",
+     "qtype": "choice",
+     "stem": "给定一个三对角矩阵A[1..50，1..50]，按列优先存入一维数组 B[1‥148]中， A 中元素 A[33,32]（即该元素下标 i=33， j=32）在 B 数组中的位置为（　）。",
+     "options": [
+      "94",
+      "95",
+      "96",
+      "97"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 95。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r9",
+     "qtype": "choice",
+     "stem": "已知一个100*90整型矩阵有10个非零元，设每个整型数占2字节，则采用三元组顺序表压缩存储该矩阵时，理论上需要的字节数是（　）",
+     "options": [
+      "60",
+      "64",
+      "66",
+      "68"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 66。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-928610fd2573",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 测验二 第04-05章 - 答案",
+   "subtitle": "陈晋川 · 2020-2021 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2020-2021学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2020,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2020-2021学年 第一学期（秋）/陈晋川 数据结构2020/小测/测验二 第04-05章 - 答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2020-2021%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%99%88%E6%99%8B%E5%B7%9D%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%842020/%E5%B0%8F%E6%B5%8B/%E6%B5%8B%E9%AA%8C%E4%BA%8C%20%E7%AC%AC04-05%E7%AB%A0%20-%20%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 3,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "已知广义表LS＝((a,b,c),(d,e,f)),运用head和tail函数取出原子f的运算是（　）。",
+     "options": [
+      "head(tail(head(tail(LS))))",
+      "tail(tail(head(LS)))",
+      "head(tail(tail(head(tail(LS))))",
+      "head(tail(tail(head(LS))))"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. head(tail(tail(head(tail(LS))))。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "设有一个10阶的对称矩阵A，采用压缩存储方式，以行序为主存储，a11为第一元素，其存储地址为1，每个元素占一个地址空间，则a85的地址为（　）。",
+     "options": [
+      "13",
+      "33",
+      "18",
+      "40"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 33。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "设有数组A[i,j]，数组的每个元素长度为3字节，i的值为1到8，j的值为1到10，数组从内存首地址BA开始顺序存放，当用以列为主存放时，元素A[5，8]的存储首地址为 （　）。",
+     "options": [
+      "BA+141",
+      "BA+180",
+      "BA+222",
+      "BA+225"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. BA+180。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-60022c62bdef",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "期末",
+   "title": "期末 · 第XX章期末易错题",
+   "subtitle": "窦志成 · 2020-2021 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2020-2021学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2020,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2020-2021学年 第一学期（秋）/窦志成 数据结构/期末/第XX章期末易错题.pptx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2020-2021%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E7%AA%A6%E5%BF%97%E6%88%90%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%9C%9F%E6%9C%AB/%E7%AC%ACXX%E7%AB%A0%E6%9C%9F%E6%9C%AB%E6%98%93%E9%94%99%E9%A2%98.pptx",
+   "itemCount": 7,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "有n个叶子的哈夫曼树的结点总数为（　）。",
+     "options": [
+      "不确定",
+      "2n",
+      "2n+1",
+      "2n-1 [slide 15]"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 2n-1 [slide 15]。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "设 F是一个森林， B是由F变换得到的二叉树， 如F中有n个非终端节点， 则 B中右指针域为空的结点有（　）个",
+     "options": [
+      "n-1",
+      "n",
+      "n+1",
+      "n+2 [slide 16]"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. n+1。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "树的后根遍历序列等同于该树对应的二叉树的（　）.",
+     "options": [
+      "先序序列",
+      "中序序列",
+      "后序序列"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 中序序列。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "若二叉树采用二叉链表存储结构，要交换其所有分支结点左、右子树的位置，利用（　）遍历方法最合适。",
+     "options": [
+      "前序",
+      "中序",
+      "后序",
+      "按层次 [slide 17]"
+     ],
+     "answer": "2",
+     "explanation": "正确答案：C. 后序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "n个元素在两路归并排序中，归并的趟数是（　）。",
+     "options": [
+      "O（n）",
+      "O（log2n）",
+      "O（nlog2n）",
+      "O（n*n） [slide 24]"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. O（log2n）。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r6",
+     "qtype": "choice",
+     "stem": "如果只想得到1000个元素组成的序列中第5个最小元素之前的部分排序的序列，用（　）方法最快。",
+     "options": [
+      "起泡排序",
+      "快速排列",
+      "Shell排序",
+      "堆排序",
+      "简单选择排序 [slide 25]"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 堆排序。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r7",
+     "qtype": "choice",
+     "stem": "具有12个关键字的有序表，折半查找的平均查找长度（　）",
+     "options": [
+      "3.1",
+      "4",
+      "2.5",
+      "5 [slide 26]"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 3.1。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-ab50b99f531c",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 第05章 测验题（2021）-答案(1)",
+   "subtitle": "黄科满 · 2022-2023 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2022-2023学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2022,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2022-2023学年 第一学期（秋）/黄科满 数据结构与算法I/小测/第05章 测验题（2021）-答案(1).docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2022-2023%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%BB%84%E7%A7%91%E6%BB%A1%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/%E5%B0%8F%E6%B5%8B/%E7%AC%AC05%E7%AB%A0%20%E6%B5%8B%E9%AA%8C%E9%A2%98%EF%BC%882021%EF%BC%89-%E7%AD%94%E6%A1%88(1).docx",
+   "itemCount": 1,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "将一个 A[1..100， 1..100]的三对角矩阵，按行优先存入一维数组 B[1‥298]中， A 中元素 A66,65（即该元素下标 i=66， j=65），在 B 数组中的位置 K 为（　）。",
+     "options": [
+      "199",
+      "198",
+      "197",
+      "195"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 195。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-05a8ca114155",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 9-10章小测试答案-全",
+   "subtitle": "陈晋川 · 2019-2020 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2019-2020学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2019,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2019-2020学年 第一学期（秋）/陈晋川 陈晋川班数据结构-2019/小测/9-10章小测试答案-全.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2019-2020%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%99%88%E6%99%8B%E5%B7%9D%20%E9%99%88%E6%99%8B%E5%B7%9D%E7%8F%AD%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-2019/%E5%B0%8F%E6%B5%8B/9-10%E7%AB%A0%E5%B0%8F%E6%B5%8B%E8%AF%95%E7%AD%94%E6%A1%88-%E5%85%A8.docx",
+   "itemCount": 3,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "假定有k个关键字互为同义词，若用线性探测法将这k个关键字存入散列表中，至少需要进行（　）次探测。",
+     "options": [
+      "k-1",
+      "k",
+      "k+1",
+      "k(k+1)/2"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. k(k+1)/2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "设哈希表长m=14，哈希函数H(key)=key%11。表中已有4个结点:addr(15)=4, addr(38)=5, addr(61)=6, addr(84)=7 其余地址为空。如果用线性探测再散列方法处理冲突，关键字为49的结点的地址是（　）",
+     "options": [
+      "8",
+      "3",
+      "5",
+      "9"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 8。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "一组记录的输入顺序为(46,79,56,38,40,84)，则利用堆排序方法建立的初始堆为（　）。",
+     "options": [
+      "79,46,56,38,40,80",
+      "38,40,56,79,46,84",
+      "84,79,56,46,40,38",
+      "84,56,79,40,46,38"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 38,40,56,79,46,84。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-d740d354ec30",
+   "courseId": "40000000-0000-4000-8000-000000000002",
+   "courseName": "数据库系统概论",
+   "head": "期中",
+   "title": "期中 · 期中试卷点评ss",
+   "subtitle": "孟小峰 · 2021-2022 第一学期（秋）",
+   "notes": "数据库系统概论课程资料 2021-2022学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2021,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据库系统概论/2021-2022学年 第一学期（秋）/孟小峰 2021数据库系统概论/期中/期中试卷点评ss.pdf",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA/2021-2022%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E5%AD%9F%E5%B0%8F%E5%B3%B0%202021%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA/%E6%9C%9F%E4%B8%AD/%E6%9C%9F%E4%B8%AD%E8%AF%95%E5%8D%B7%E7%82%B9%E8%AF%84ss.pdf",
+   "itemCount": 5,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "judge",
+     "stem": "（2.5分）判断题 （　）A. 码是由一组属性构成，从码中去除一个属性或增加一个属性均不再为码 （√）B. 每个关系至少存在一个超码 （×）C. 一个关系上一定有多个候选码和一个主码 （√）D. 如果关系模式上只有一个候选码，那么候选码就是主码 （√）E. 一组属性只要在一个关系实例上存在重复属性值，即不成为超码",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：正确。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "（3分）选择题 给定关系Student(Sno, Sname), Course(Cno, Cname), SC(Sno, Cno, Grade)，以下 关系演算等价的关系代数表达式是（　），等价的SQL语句是（D）。 RANGE OF CX is Course RANGE OF SCX is SC RANGE OF SX is Student {SX.Sno, SX.Sname | CX SCX (SCX.Sno=SX.Sno∧SCX.Cno=CX.Cno) }",
+     "options": [
+      "πSno,Sname(Student) ⋈πSno,Cno(SC) ⋈πCno(Course)",
+      "πSno,Sname(Student) ⋈(πSno,Cno(SC) ÷ πCno(Course))",
+      "select Sno, Sname from Student s where s.Sno in (select SC.Sno from SC, Course where SC.Sno=Course.Sno and SC.Cno=Course.Cno)",
+      "select Sno, Sname from Student s where not exists (select * from Couse c where not exists (select * from SC where s.Sno = Sno and Cno = c.Cno)) 第7题 第8题"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. πSno,Sname(Student) ⋈(πSno,Cno(SC) ÷ πCno(Course))。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "（3分）选择题 嵌入式SQL中当查询结果为单条记录时，将查询结果交予主语言处理时，应 使用的机制是（　）；查询结果为多条记录时，应使用的机制是（A），引 入（C）来解决主语言无空值的问题。",
+     "options": [
+      "游标",
+      "主变量",
+      "指示变量",
+      "SQLCA 第9题 第10题"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 主变量。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "judge",
+     "stem": "（2.5分）判断题 给定关系Student(Sno, Sname, Age, GPA), Course(Cno, Cname), SC(Sno, Cno, Grade)，请判断下列视图是否为可更新视图。 （　）A. create view Age_distribution (Age, Total_no) as select Age, count(*) from Student group by Age （√）B. create view Top_Students as select Sno, Sname, GPA from Student where GPA >= 3.8 （×）C. create view Student_Course as select s.Sno, s.Sname, c.Cno, c.Cname from Student s, SC e, Course c where s.Sno = e.Sno and e.Cno = c.Cno （×）D. create view Sno_distribution (Sno, Avg_age) as select Sno, avg(Age) from Student group by Sno （×）E. create view C2_Students as select distinct s.* from Student s, SC e where s.Sno = e.Sno and e.Cno = '2'",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "（2.5分）选择题 给定关系Student(Sno, Sname), Course(Cno, Cname), SC(Sno, Cno, Grade)， 现有如下的断言定义约束，其给出的约束语义是（　）。",
+     "options": [
+      "每名学生最多选修10门课程",
+      "每门课程最多10名学生选修",
+      "每名学生最少选修10门课程",
+      "每门课程最少10名学生选修 create assertion Course_Constraint check (not exists (select * from Course c where 10 < (select count(*) from SC where Cno = c.Cno))); 二、（15分）ER模型与关系模型"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 每门课程最多10名学生选修。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-90bf2f9d5124",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "期中",
+   "title": "期中 · 第02章 测验+答案",
+   "subtitle": "黄科满 · 2024-2025 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2024-2025学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2024,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2024-2025学年 第一学期（秋）/黄科满 数据结构与算法I-黄科满/期中+小测/第02章 测验+答案.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2024-2025%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%BB%84%E7%A7%91%E6%BB%A1%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I-%E9%BB%84%E7%A7%91%E6%BB%A1/%E6%9C%9F%E4%B8%AD%2B%E5%B0%8F%E6%B5%8B/%E7%AC%AC02%E7%AB%A0%20%E6%B5%8B%E9%AA%8C%2B%E7%AD%94%E6%A1%88.docx",
+   "itemCount": 5,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "judge",
+     "stem": "取线性表的第i个元素的时间同i的大小有关. （　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "judge",
+     "stem": "对任何数据结构链式存储结构一定优于顺序存储结构。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "judge",
+     "stem": "线性表的特点是每个元素都有一个前驱和一个后继。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "judge",
+     "stem": "线性表采用链表存储时，结点和结点内部的存储空间可以是不连续的。（　）",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "judge",
+     "stem": "顺序表可以顺序存取，也可以随机存取，链表只能从表头顺序存取元素（　） 四、应用题（1题4分，2题8分，3题8分 共20分） 给出以下算法的时间复杂度. 时间复杂度为__o(nlog2n)__________。 count=0; for(k=1;k<=n;k*=2) for(j=1;j<=n;j++） count++;",
+     "options": [
+      "正确",
+      "错误"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：错误。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  },
+  {
+   "id": "40000000-0000-4000-9000-eecf5a6cecbe",
+   "courseId": "30000000-0000-4000-8000-000000000001",
+   "courseName": "数据结构与算法",
+   "head": "小测",
+   "title": "小测 · 第7章 课堂测验(含答案）",
+   "subtitle": "陈晋川 · 2019-2020 第一学期（秋）",
+   "notes": "数据结构与算法课程资料 2019-2020学年 第一学期（秋），整理自课程试卷库。",
+   "year": 2019,
+   "sourceType": "past_exam",
+   "licenseNote": "课程试卷整理本，经站点运营者确认授权后收录，仅用于校内练习，禁止对外传播。",
+   "sourcePath": "files/数据结构与算法I/2019-2020学年 第一学期（秋）/陈晋川 陈晋川班数据结构-2019/小测/第7章 课堂测验(含答案）.docx",
+   "sourceUrl": "https://github.com/Inkkdot/ruc-exam-archive/blob/main/files/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95I/2019-2020%E5%AD%A6%E5%B9%B4%20%E7%AC%AC%E4%B8%80%E5%AD%A6%E6%9C%9F%EF%BC%88%E7%A7%8B%EF%BC%89/%E9%99%88%E6%99%8B%E5%B7%9D%20%E9%99%88%E6%99%8B%E5%B7%9D%E7%8F%AD%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-2019/%E5%B0%8F%E6%B5%8B/%E7%AC%AC7%E7%AB%A0%20%E8%AF%BE%E5%A0%82%E6%B5%8B%E9%AA%8C(%E5%90%AB%E7%AD%94%E6%A1%88%EF%BC%89.docx",
+   "itemCount": 5,
+   "questions": [
+    {
+     "ref": "r1",
+     "qtype": "choice",
+     "stem": "一个有n 个结点的图，最少有（　）个连通分量，最多有（ D）个连通分量。",
+     "options": [
+      "0",
+      "1",
+      "n-1",
+      "n"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 1。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r2",
+     "qtype": "choice",
+     "stem": "在一个无向图中，所有顶点的度数之和等于所有边数（　）倍，在一个有向图中，所有顶点的入度之和等于所有顶点出度之和的（C ）倍。",
+     "options": [
+      "1/2",
+      "2",
+      "1",
+      "4"
+     ],
+     "answer": "1",
+     "explanation": "正确答案：B. 2。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r3",
+     "qtype": "choice",
+     "stem": "设图如下所示，在下面的5 个序列中，符合深度优先遍历的序列有多少？（　） a e b d f c a c f d e b a e d f c b a e f d c b a e f d b c",
+     "options": [
+      "5 个",
+      "4 个",
+      "3 个",
+      "2 个"
+     ],
+     "answer": "3",
+     "explanation": "正确答案：D. 2 个。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r4",
+     "qtype": "choice",
+     "stem": "当各边上的权值（　）时，BFS 算法可用来解决单源最短路径问题。",
+     "options": [
+      "均相等",
+      "均互不相等",
+      "不一定相等"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 均相等。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    },
+    {
+     "ref": "r5",
+     "qtype": "choice",
+     "stem": "若一个有向图的邻接距阵中,主对角线以下的元素均为零,则该图的拓扑有序序列（　）。",
+     "options": [
+      "存在",
+      "不存在"
+     ],
+     "answer": "0",
+     "explanation": "正确答案：A. 存在。",
+     "tags": [
+      "真题"
+     ],
+     "section": ""
+    }
+   ]
+  }
+ ]
+}

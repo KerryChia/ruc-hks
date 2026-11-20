@@ -1,0 +1,38 @@
+{
+  "name": "examhub",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env.local node_modules/next/dist/bin/next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "node --env-file-if-exists=.env.local node_modules/next/dist/bin/next start -H 127.0.0.1",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts app/_tests/*.test.ts",
+    "db": "node --env-file-if-exists=.env.local --import tsx scripts/db.ts",
+    "mcp": "node --env-file-if-exists=.env.local --import tsx src/mcp/stdio.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@node-rs/argon2": "^2.0.2",
+    "next": "16.4.6",
+    "nodemailer": "10.6.0",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tsx": "^4.21.0",
+    "zod": "^4.3.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16",
+    "@electric-sql/pglite-socket": "^0.2.19",
+    "@types/node": "^24.0.0",
+    "@types/nodemailer": "^7.0.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  }
+}
